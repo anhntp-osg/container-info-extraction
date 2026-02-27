@@ -1,6 +1,14 @@
+# Environment
 .env
+.venv/
+
 __pycache__/
 *.pyc
 *.pyo
-.venv/
+
 container_img_test/
+
+# IDE
+.idea/
+*.iml
+.vscode/
