@@ -10,4 +10,4 @@ class ContainerInfo:
 
     @property
     def is_osg(self) -> bool:
-        return bool(self.container_id and "osg" in self.container_id.lower())
+        return bool(self.container_id is not None or "osg" in self.container_id.lower())

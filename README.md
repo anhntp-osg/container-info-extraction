@@ -59,6 +59,11 @@ python main.py
 python main.py "path/to/container.jpg"
 ```
 
+## Usage UI
+```bash
+streamlit run app.py
+```
+
 ### Sample Output
 
 Standard container:
@@ -102,6 +107,6 @@ Edit `DEFAULT_CATEGORY_PATTERNS` in [src/container_info/classifier.py](src/conta
 
 ```python
 "open top container": [
-    "open top", "ot container", "open-top",
+    "open top", "ot container", "open-top"
 ],
 ```
