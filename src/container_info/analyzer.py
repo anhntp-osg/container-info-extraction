@@ -74,7 +74,8 @@ def analyze_container_image(image_path: str, mime_type: str = "image/jpeg") -> C
         container_type_description=type_desc,
     )
 
-    if type_desc and not info.is_osg:
+    # if container_id is not None and not info.is_osg:
+    if not info.is_osg:
         info.container_type = classify_container_type(type_desc)
 
     return info
